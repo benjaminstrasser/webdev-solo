@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "vite",
-    "prod": "tsc && vite build",
-    "dev": "vite preview"
+    "dev": "vite",
+    "prod": "tsc && vite build"
   },
   "devDependencies": {
     "sass": "^1.54.6",
