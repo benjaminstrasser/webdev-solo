@@ -10,4 +10,4 @@ export async function render(content: HTMLElement) {
     app.append(await App(content));
 }
 
-await render(Home())
+render(Home()).then()

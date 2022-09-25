@@ -33,12 +33,12 @@ return (
 )
 }
 
-async function addJokeAndRerender(joke) {
+async function addJokeAndRerender(joke: string) {
     addJoke(joke);
     render(await Content());
 }
 
-async function removeJokeAndRerender(joke) {
+async function removeJokeAndRerender(joke: string) {
     removeJoke(joke);
     render(await Content());
 }
