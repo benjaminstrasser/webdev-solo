@@ -19,7 +19,11 @@ return (
     <div>
         <div>
             <div>Joke:</div>
-            <div>{joke} <button onClick={async () => addJokeAndRerender(joke)}>Add to Favorites</button></div>
+                <div>
+                    {joke}
+                    <button onClick={async () => addJokeAndRerender(joke)}>Add to Favorites</button>
+                    <button onClick={async () => render(await Content())}>Refresh</button>
+                </div>
          </div>
          <hr></hr>
          <div>
