@@ -14,16 +14,16 @@ export const Home = () => {
         </h1>
         <form>
               <label for="text">text:</label>
-              <input value={text} type="text" id="text" name="text"></input>
+              <input     alt="Type a text" value={text} type="text" id="text" name="text"></input>
 
               <label for="number">number:</label>
-              <input value={number} type="text" id="number" name="number"></input>
+              <input alt="Type a number" value={number} type="text" id="number" name="number"></input>
 
               <label for="email">email:</label>
-              <input value={email} type="text" id="email" name="email"></input>
+              <input alt="Type a email" value={email} type="text" id="email" name="email"></input>
 
               <label for="password">password:</label>
-              <input value={password} type="password" id="password" name="password"></input>
+              <input alt="Type a password" value={password} type="password" id="password" name="password"></input>
         </form>
         <button onClick={() => validate()}>Validate</button>
     </div>
