@@ -6,7 +6,7 @@ import { defineConfig } from 'vite';
 export default defineConfig({
     base: '/webdev-solo/',
     plugins: [
-        viteObfuscateFile()
+        ...(process.env.MODE === "DEV" ? [] : [viteObfuscateFile()])
     ],
     build: {
         minify: "esbuild",

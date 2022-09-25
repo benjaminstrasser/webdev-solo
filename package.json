@@ -5,12 +5,16 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prod": "tsc && vite build"
+    "prod": "tsc && vite build",
+    "build-dev": "tsc && cross-env MODE=DEV vite build --minify=false"
   },
   "devDependencies": {
     "sass": "^1.54.6",
     "typescript": "^4.6.4",
     "vite": "^3.0.7",
     "vite-plugin-obfuscator": "^1.0.5"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3"
   }
 }
