@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "prod": "tsc && vite build",
+    "prod": "tsc && vite build --minify=true",
     "build-dev": "tsc && cross-env MODE=DEV vite build --minify=false"
   },
   "devDependencies": {
