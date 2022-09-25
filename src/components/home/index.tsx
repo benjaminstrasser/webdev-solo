@@ -22,7 +22,7 @@ export const Home = () => {
               <label for="email">email:</label>
               <input value={email} type="text" id="email" name="email"></input>
 
-              <label for="password">email:</label>
+              <label for="password">password:</label>
               <input value={password} type="password" id="password" name="password"></input>
         </form>
         <button onClick={() => validate()}>Validate</button>
