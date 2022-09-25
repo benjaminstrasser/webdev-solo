@@ -32,9 +32,13 @@ export const Home = () => {
 
 
 function validate() {
+    //@ts-ignore
     const text = document.querySelector<HTMLDivElement>('#text').value;
+    //@ts-ignore
     const number = document.querySelector<HTMLDivElement>('#number').value;
+    //@ts-ignore
     const email = document.querySelector<HTMLDivElement>('#email').value;
+    //@ts-ignore
     const password = document.querySelector<HTMLDivElement>('#password').value;
 
     let error = "";
