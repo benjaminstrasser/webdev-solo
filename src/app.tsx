@@ -5,8 +5,6 @@ import {Home} from "./components/home"
 import {About} from "./components/about"
 import {Content} from "./components/content"
 
-//type AppConstructor = (content?: HTMLElement) => HTMLElement;
-
 export const App = async (content) => (
     <div style="margin: auto">
         <div className="flex">
