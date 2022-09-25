@@ -1,4 +1,10 @@
 // vite.config.js
-export default {
-    base: '/webdev-solo/'
-}
+
+import { defineConfig } from 'vite';
+export default defineConfig({
+    base: '/webdev-solo/',
+    esbuild: {
+        jsxFactory: 'h',
+        jsxFragment: 'Fragment'
+    }
+});
